@@ -13,6 +13,7 @@
 		88AFBA331EA5B6BC006F5773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AFBA311EA5B6BC006F5773 /* Main.storyboard */; };
 		88AFBA351EA5B6BC006F5773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AFBA341EA5B6BC006F5773 /* Assets.xcassets */; };
 		88AFBA381EA5B6BC006F5773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AFBA361EA5B6BC006F5773 /* LaunchScreen.storyboard */; };
+		88AFBA411EA5EB58006F5773 /* SmoothMoniter.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AFBA401EA5EB58006F5773 /* SmoothMoniter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		88AFBA341EA5B6BC006F5773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88AFBA371EA5B6BC006F5773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88AFBA391EA5B6BC006F5773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88AFBA3F1EA5EB58006F5773 /* SmoothMoniter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothMoniter.h; sourceTree = "<group>"; };
+		88AFBA401EA5EB58006F5773 /* SmoothMoniter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothMoniter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				88AFBA361EA5B6BC006F5773 /* LaunchScreen.storyboard */,
 				88AFBA391EA5B6BC006F5773 /* Info.plist */,
 				88AFBA281EA5B6BC006F5773 /* Supporting Files */,
+				88AFBA3F1EA5EB58006F5773 /* SmoothMoniter.h */,
+				88AFBA401EA5EB58006F5773 /* SmoothMoniter.m */,
 			);
 			path = SmoothMoniter;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				88AFBA301EA5B6BC006F5773 /* ViewController.m in Sources */,
 				88AFBA2D1EA5B6BC006F5773 /* AppDelegate.m in Sources */,
+				88AFBA411EA5EB58006F5773 /* SmoothMoniter.m in Sources */,
 				88AFBA2A1EA5B6BC006F5773 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
