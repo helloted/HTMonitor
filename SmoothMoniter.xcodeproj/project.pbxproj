@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		884830451FC94D1700207E11 /* CPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 884830441FC94D1700207E11 /* CPUMonitor.m */; };
 		88AFBA2A1EA5B6BC006F5773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AFBA291EA5B6BC006F5773 /* main.m */; };
 		88AFBA2D1EA5B6BC006F5773 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AFBA2C1EA5B6BC006F5773 /* AppDelegate.m */; };
 		88AFBA301EA5B6BC006F5773 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AFBA2F1EA5B6BC006F5773 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		884830431FC94D1700207E11 /* CPUMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPUMonitor.h; sourceTree = "<group>"; };
+		884830441FC94D1700207E11 /* CPUMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPUMonitor.m; sourceTree = "<group>"; };
 		88AFBA251EA5B6BC006F5773 /* SmoothMoniter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothMoniter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AFBA291EA5B6BC006F5773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88AFBA2B1EA5B6BC006F5773 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				88AFBA281EA5B6BC006F5773 /* Supporting Files */,
 				88AFBA3F1EA5EB58006F5773 /* SmoothMoniter.h */,
 				88AFBA401EA5EB58006F5773 /* SmoothMoniter.m */,
+				884830431FC94D1700207E11 /* CPUMonitor.h */,
+				884830441FC94D1700207E11 /* CPUMonitor.m */,
 			);
 			path = SmoothMoniter;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88AFBA301EA5B6BC006F5773 /* ViewController.m in Sources */,
+				884830451FC94D1700207E11 /* CPUMonitor.m in Sources */,
 				88AFBA2D1EA5B6BC006F5773 /* AppDelegate.m in Sources */,
 				88AFBA411EA5EB58006F5773 /* SmoothMoniter.m in Sources */,
 				88AFBA2A1EA5B6BC006F5773 /* main.m in Sources */,
@@ -317,6 +323,7 @@
 				88AFBA3E1EA5B6BC006F5773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

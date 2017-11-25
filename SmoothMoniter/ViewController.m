@@ -8,8 +8,11 @@
 
 #import "ViewController.h"
 #import "SmoothMoniter.h"
+#import "CPUMonitor.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong)CADisplayLink    *displayLink;
 
 @end
 
@@ -17,8 +20,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[SmoothMoniter sharedInstance] startMoniter];
-    // Do any additional setup after loading the view, typically from a nib.
+    [[CPUMonitor sharedInstance] start];
+//    self.displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateTextColor)];
+//    self.displayLink.paused = YES;
+//    [self.displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
+//    self.displayLink.paused = NO;
+    
+
+//    [[SmoothMoniter sharedInstance] startMoniter];
+}
+
+- (void)updateTextColor{
+    NSLog(@"updafe");
 }
 
 
