@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HTMonitor"
-  s.version      = "0.0.3"
+  s.version      = "0.1.0"
   s.summary      = "A Tool to monitor UI rending time and memory leaks"
 
   # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   s.author       = { "helloted" => "helloted@live.com" }
   s.social_media_url   = "http://helloted.com"
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/helloted/MonitorMethod.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/helloted/HTMonitor.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
