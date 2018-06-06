@@ -7,13 +7,15 @@
 pod 'HTMonitor'
 ```
 
-监控有三种模式
+监控有下面几种模式
 
-```
+```objc
 typedef enum {
     HTMonitorTypeAll = 0,
-    HTMonitorTypeUI,
-    HTMonitorTypeMemory,
+    HTMonitorTypeUILoadTime,  // UI 加载时间
+    HTMonitorTypeUILag,  // UI卡顿检测
+    HTMonitorTypeMemoryLeak,  //内存泄漏检测
+    HTMonitorTypeFPS, // 监控屏幕FPS
 } HTMonitorType;
 ```
 
